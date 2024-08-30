@@ -1,7 +1,7 @@
 package svg
 
 import (
-	g "github.com/maragudk/gomponents"
+	g "github.com/tevintchuinkam/gomponents"
 )
 
 func ClipRule(v string) g.Node {

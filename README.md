@@ -2,10 +2,10 @@
 
 <img src="logo.png" alt="Logo" width="300" align="right"/>
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/maragudk/gomponents)](https://pkg.go.dev/github.com/maragudk/gomponents)
-[![Go](https://github.com/maragudk/gomponents/actions/workflows/ci.yml/badge.svg)](https://github.com/maragudk/gomponents/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/maragudk/gomponents/branch/main/graph/badge.svg)](https://codecov.io/gh/maragudk/gomponents)
-[![Go Report Card](https://goreportcard.com/badge/github.com/maragudk/gomponents)](https://goreportcard.com/report/github.com/maragudk/gomponents)
+[![GoDoc](https://pkg.go.dev/badge/github.com/tevintchuinkam/gomponents)](https://pkg.go.dev/github.com/tevintchuinkam/gomponents)
+[![Go](https://github.com/tevintchuinkam/gomponents/actions/workflows/ci.yml/badge.svg)](https://github.com/tevintchuinkam/gomponents/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/tevintchuinkam/gomponents/branch/main/graph/badge.svg)](https://codecov.io/gh/tevintchuinkam/gomponents)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tevintchuinkam/gomponents)](https://goreportcard.com/report/github.com/tevintchuinkam/gomponents)
 
 Try HTML components in pure Go.
 
@@ -36,7 +36,7 @@ Made in 🇩🇰 by [maragu](https://www.maragu.dk), maker of [online Go courses
 Get the library using `go get`:
 
 ```shell
-go get github.com/maragudk/gomponents
+go get github.com/tevintchuinkam/gomponents
 ```
 
 The preferred way to use gomponents is with so-called dot-imports (note the dot before the `gomponents/html` import),
@@ -48,9 +48,9 @@ package main
 import (
 	"net/http"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/tevintchuinkam/gomponents"
+	c "github.com/tevintchuinkam/gomponents/components"
+	. "github.com/tevintchuinkam/gomponents/html"
 )
 
 func main() {
@@ -101,9 +101,9 @@ package main
 import (
 	"net/http"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/tevintchuinkam/gomponents"
+	c "github.com/tevintchuinkam/gomponents/components"
+	. "github.com/tevintchuinkam/gomponents/html"
 )
 
 func main() {
