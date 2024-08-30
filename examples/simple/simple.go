@@ -6,9 +6,9 @@ package main
 import (
 	"net/http"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/tevintchuinkam/gomponents"
+	c "github.com/tevintchuinkam/gomponents/components"
+	. "github.com/tevintchuinkam/gomponents/html"
 )
 
 func main() {

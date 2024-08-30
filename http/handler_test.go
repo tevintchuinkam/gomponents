@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	g "github.com/maragudk/gomponents"
-	ghttp "github.com/maragudk/gomponents/http"
+	g "github.com/tevintchuinkam/gomponents"
+	ghttp "github.com/tevintchuinkam/gomponents/http"
 )
 
 func TestAdapt(t *testing.T) {
